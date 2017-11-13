@@ -7,7 +7,7 @@ Atelier JavaScript pour débutant.
  
 Connaître un minimum le HTML   
 dont balises html, body, div, input, button  
-et les styles CSS : 
+et les styles CSS :  
 dont attributs color, width, text-align, etc 
 voir  [http://fr.html.net/tutorials/html/](http://fr.html.net/tutorials/html/)
 	
