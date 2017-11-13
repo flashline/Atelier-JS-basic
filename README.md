@@ -5,10 +5,10 @@ Atelier JavaScript pour débutant.
 
 # Pré-requis :
  
-Connaître un minimum le HTML  
-dont balises <html>, <body>, <div>, <input>, <button>
+Connaître un minimum le HTML   
+dont balises html, body, div, input, button
 et les styles CSS :
-dont attributs color, width, text-align, etc
+dont attributs color, width, text-align, etc 
 voir  [http://fr.html.net/tutorials/html/](http://fr.html.net/tutorials/html/)
 	
 
