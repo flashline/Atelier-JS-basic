@@ -5,7 +5,7 @@ var prenomEleve ;
 prenomEleve = "Jean-Michel" ;
 // créa + assign
 var ageEleve = 26 ;
-// var codePostal ;
+var codePostal ;
 codePostal="03120" ; 
 // codePostal=3120 ; 
 
