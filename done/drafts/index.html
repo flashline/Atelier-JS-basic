@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD><TITLE>Votre avis</TITLE></HEAD>
+<BODY>
+<H1>Votre avis sur ce cours</H1><HR>
+<div id="madiv">uuuu</div><HR>
+<FORM NAME="formu" METHOD="post" ENCTYPE="text/plain">
+Votre avis : <SELECT NAME="sel">
+<OPTION>Ce cours est très bien fait.</OPTION>
+<OPTION>Ce cours est bien (sans plus).</OPTION>
+<OPTION SELECTED>Ce cours est moyen, et pas assez complet.</OPTION>
+<OPTION>Ce cours est très médiocre.</OPTION>
+<OPTION>Je n'y reviendrai plus jamais!</OPTION>
+</SELECT><BR>
+Si vous avez des remarques supplémentaires :<BR>
+<TEXTAREA NAME="libre" COLS="35" ROWS="5"></TEXTAREA>
+<BR>Votre adresse e-mail : 
+<INPUT TYPE="text" NAME="adr" WIDTH="40" />
+<BR><INPUT TYPE="reset" VALUE="Effacer"/> 
+<INPUT TYPE="submit" VALUE="Envoyer" ONCLICK="window.envoi()"/>
+</FORM><HR>
+<script>
+	/*function envoi() {
+	 // par défaut, pas d'envoi
+	 document.formu.action="";
+	 // recherche de @ dans l'adresse
+	 var address=window.document.formu.adr.value;
+	 var pos=address.indexOf('@');
+	 
+	 if (address=="") {
+	  alert("Vous devez donner une adresse e-mail.");
+	 }
+	 else {
+	  if (pos==-1 || pos==0 || pos==address.length-1) {
+	   alert("Une adresse e-mail a le format nom@domaine");
+	  }
+	  else // tout va bien, on envoie le formulaire
+	   document.formu.action='mailto:info@pixaline.net?subject="Cours JavaScript"';
+	 }
+	}
+	*/
+	
+	
+	
+	//
+	var envoi = function () {
+		 // par défaut, pas d'envoi
+		 document.formu.action="";
+		
+		 
+		  document.formu.action='mailto:info@pixaline.net?subject="Cours JavaScript"';
+	 
+	} ;
+	
+</script>
+
+</BODY></HTML>
