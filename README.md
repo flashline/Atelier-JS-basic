@@ -20,5 +20,11 @@ Si vous n'avez pas d'éditeur de texte installez :
 ou  
 [https://www.sublimetext.com/](https://www.sublimetext.com/) pour Mac, Linux,windows
 	
- 	
+ 
+# Liens utilisés durant l'atelier  
+[http://www.pixaline.net/intra/Atelier%202018/done/ex02/](http://www.pixaline.net/intra/Atelier%202018/done/ex02/)  
+[http://www.pixaline.net/intra/Atelier%202018/done/ex02/index.nu.html](http://www.pixaline.net/intra/Atelier%202018/done/ex02/index.nu.html)  
+		
+	
+	
 [Apix](http://www.pixaline.net/) for [Silexlabs.org](http://www.silexlabs.org/)
