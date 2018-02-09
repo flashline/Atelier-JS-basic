@@ -15,6 +15,7 @@
 
 // Les objets (type js Object)
 
-/* Les événements
-		click
+/* 
+		for (var i=0;i<eleves.length;i++) {
+		}
 */
