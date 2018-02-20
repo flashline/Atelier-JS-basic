@@ -7,7 +7,7 @@ prenomEleve = "Jean-Michel" ;
 var ageEleve = 26 ;
 var codePostal ;
 codePostal="03120" ; 
-// codePostal=3120 ; 
+// codePostal=03120 ; // ça marche pas !
 
 document.write("<br/>Mon prénom est "+prenomEleve+" ") ;
 document.write("et j'ai "+ageEleve+" ans.<br>Mon codePostal postal est "+codePostal) ;
@@ -33,9 +33,9 @@ document.write("<br>Moyenne des ages "+ageMoyen+" ans ") ;
 //
 document.write("<br/><br/>--- Calcul avec les 4 opérateurs");
 var ht=200; var acompte=80; var tva=20;
-var aPayer=ht+ht*tva/100-acompte ;
-// aPayer=ht*(tva/100+1)-acompte ;
-aPayer=ht*(tva*Math.pow(10,-2)+1)-acompte ;
+var aPayer=ht+ht*tva/100-acompte ; // () non nécessaires car priorité des * et / sur + et -
+// aPayer=ht*(tva/100+1)-acompte ;  //Si mise en facteur alors les () sont obligatoires sinon bug !!
+// aPayer=ht*(tva*Math.pow(10,-2)+1)-acompte ; // Humour ! Inutile de compliquer la lecture d'un prog !!
 document.write("<br>Net à payer "+aPayer+" €" ) ;
 //
 // Les tableaux soit les vars de type Array (variables indicées)
