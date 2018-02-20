@@ -24,6 +24,19 @@ ou
 # Liens utilisés durant l'atelier  
 [http://www.pixaline.net/intra/Atelier%202018/done/ex02/](http://www.pixaline.net/intra/Atelier%202018/done/ex02/)  
 [http://www.pixaline.net/intra/Atelier%202018/done/ex02/index.nu.html](http://www.pixaline.net/intra/Atelier%202018/done/ex02/index.nu.html)  
+
+# Merci de votre participation, on va continuer ...  
+  
+  
+
+
+# Atelier prévu couurant mars 2018
+- Finir l'atelier du 19 janvier : les boucles, conditions et objet JS puis écriture d'une application web concrête. 
+
+# Ateliers prévus sans date déterminée.
+-  Initiation à la programmation orientée objets (POO) façon Java-Script.
+-  POO avancée JS dont héritage par prototype.
+-  POO orthodoxe avec des langages comme TypeScript, Haxe, etc, qui sont ensuite traduits (compilés) en JS.
 		
 	
 	
