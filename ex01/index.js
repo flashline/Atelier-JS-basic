@@ -57,6 +57,7 @@ document.write("eleves.pop() = "+eleves.pop()+"<br/>");
 
 var affich=window.alert;
 //affich("alert mis dans affich");
+
 // 		Créer ses propres fonctions
 
 function $ (id) {
