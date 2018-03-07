@@ -1,5 +1,5 @@
 // main 
-
+addons ();
 // fonctions
 
 /// Les fonctions écouteur d'événement
