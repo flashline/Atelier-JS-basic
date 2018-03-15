@@ -7,7 +7,7 @@ prenomEleve = "Jean-Michel" ;
 var ageEleve = 26 ;
 var codePostal ;
 codePostal="03120" ; 
-// codePostal=03120 ; // ça marche pas !
+// codePostal=3120 ; // ça marche pas !
 
 document.write("<br/>Mon prénom est "+prenomEleve+" ") ;
 document.write("et j'ai "+ageEleve+" ans.<br>Mon codePostal postal est "+codePostal) ;
@@ -34,8 +34,7 @@ document.write("<br>Moyenne des ages "+ageMoyen+" ans ") ;
 document.write("<br/><br/>--- Calcul avec les 4 opérateurs");
 var ht=200; var acompte=80; var tva=20;
 var aPayer=ht+ht*tva/100-acompte ; // () non nécessaires car priorité des * et / sur + et -
-// aPayer=ht*(tva/100+1)-acompte ;  //Si mise en facteur alors les () sont obligatoires sinon bug !!
-// aPayer=ht*(tva*Math.pow(10,-2)+1)-acompte ; // Humour ! Inutile de compliquer la lecture d'un prog !!
+// aPayer=ht*(tva/100+1)-acompte ;  // Si mise en facteur de ht alors les () sont obligatoires sinon bug !!
 document.write("<br>Net à payer "+aPayer+" €" ) ;
 //
 // Les tableaux soit les vars de type Array (variables indicées)
@@ -206,7 +205,7 @@ affich (eleve.prenom+" "+eleve.nom+" est agé de "+eleve.age+" ans."+"<br/>"+
 					 "Son adresse mail est "+eleve.email+".<br/><br/>");		
 //
 // Nous allons créer une function que nous ajouteront à chaque objet 'eleve'
-var affichCetEleve = function() {
+function affichCetEleve () {
 	affich	("<br>"+this.prenom+" "+this.nom+" est agé de "+this.age+" ans."+"<br/>"+
 					 "Son adresse mail est "+this.email+".<br/>--------------------------------<br/>");	
 };	
@@ -233,7 +232,7 @@ eleve.prenom="Eric";
 eleve.nom="Enneke";	
 eleve.age="32";	
 eleve.email="e.neke@gmail.com";	
-eleve.affich=affichCetEleve;;
+eleve.affich=affichCetEleve;
 eleves.push(eleve);
 //
 // on teste//
