@@ -45,7 +45,7 @@ for (var i=0;i<eleves.length;i++) {
 //
 // 		appel de fonctions fournies par js
 //
-window.alert("bonjour");
+//window.alert("bonjour");
 window.document.write("je suis la fonctions write de window.document<br/>");
 document.write("window.ageEleve = "+window.ageEleve+"<br/>");
 //
@@ -65,6 +65,9 @@ function $ (id) {
 }
 $("header").innerHTML="J'écris ce que je veux en rouge";
 $("header").style.color="red";
+affich = function (tx) {
+	document.write(tx+"<br/>");
+}
 
 // Les boucles et exécution conditionnelle 
 
