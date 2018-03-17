@@ -32,12 +32,12 @@ ou
 
 
 # Corrigé et support.  
-  - Les corrigés ex01 et ex02 sont dans ./done/  
-  - Le support part I est dans ./done/doc/support.part1.pdf  
-  - Le support part II est dans ./done/doc/support.part2.pdf  
+  - Les corrigés ex01 et ex02 sont dans [./done/](https://github.com/flashline/Atelier-JS-basic/tree/master/done)    
+  - Le support part I est dans [./done/doc/support.part1.pdf](https://github.com/flashline/Atelier-JS-basic/blob/master/done/doc/support.part1.pdf) 
+  - Le support part II est dans [./done/doc/support.part2.pdf](https://github.com/flashline/Atelier-JS-basic/blob/master/done/doc/support.part2.pdf)  
     
   
-  
+                                        
  
 
 # Atelier prévu courant avril 2018
