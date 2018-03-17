@@ -1,5 +1,5 @@
 # Atelier Silex  2018  (fr)
-#  Les bases de Java Script 
+#  Introduction à Java Script 
 
 Atelier JavaScript pour débutant.
 
@@ -16,28 +16,32 @@ voir  [http://fr.html.net/tutorials/html/](http://fr.html.net/tutorials/html/)
 Cliquer sur "Clone or download" puis "Download ZIP"
 
 Si vous n'avez pas d'éditeur de texte installez :  
-[http://www.flashdevelop.org/](http://www.flashdevelop.org/) pour Windows  
+[http://www.flashdevelop.org/](http://www.flashdevelop.org/) pour Windows 
+ou  
+[https://code.visualstudio.com/](https://code.visualstudio.com/) pour Mac, Linux,windows 
 ou  
 [https://www.sublimetext.com/](https://www.sublimetext.com/) pour Mac, Linux,windows
 	
  
 # Liens utilisés durant l'atelier  
-[http://www.pixaline.net/intra/Atelier%202018/done/ex02/](http://www.pixaline.net/intra/Atelier%202018/done/ex02/)  
-[http://www.pixaline.net/intra/Atelier%202018/done/ex02/index.nu.html](http://www.pixaline.net/intra/Atelier%202018/done/ex02/index.nu.html)  
+[http://www.pixaline.net/intra/Atelier 2018/done/ex02/](http://www.pixaline.net/intra/Atelier%202018/done/ex02/)  
+[http://www.pixaline.net/intra/Atelier 2018/done/ex02/index.nu.html](http://www.pixaline.net/intra/Atelier%202018/done/ex02/index.nu.html)  
+
   
+
+
 
 # Corrigé et support.  
-  - Le corrigé est dans ./done/  
-  - Le support est dans ./done/doc/support.part1.pdf  
-    
-    
+  - Les corrigés ex01 et ex02 sont dans ./done/  
+  - Le support part I est dans ./done/doc/support.part1.pdf  
+  - Le support part II est dans ./done/doc/support.part2.pdf  
     
   
   
-# On va continuer ...  
+ 
 
-# Atelier prévu courant mars 2018
-- Finir la partie I de l'atelier du 19 janvier : les boucles, conditions et objet JS puis partie II écriture d'une application web concrête. 
+# Atelier prévu courant avril 2018
+- Finir l'écriture de notre application web concrête. 
 
 # Ateliers prévus sans date déterminée.
 -  Initiation à la programmation orientée objets (POO) façon Java-Script.
@@ -46,4 +50,6 @@ ou
 		
 	
 	
-[Apix](http://www.pixaline.net/) for [Silexlabs.org](http://www.silexlabs.org/)
+[Apix](http://www.pixaline.net/) for [Silexlabs.org](http://www.silexlabs.org/) 
+    
+ 
