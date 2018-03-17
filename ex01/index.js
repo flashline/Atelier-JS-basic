@@ -70,10 +70,62 @@ affich = function (tx) {
 }
 
 // Les boucles et exécution conditionnelle 
-
+var max=5;
+for (var i=0;i<5;i=i+1) {
+	affich(eleves[i]+" a le n° "+(i+1));
+}
+affich("---- multiple de 3 avec for ----");
+for (var i=6;i<31;i+=3) {
+	affich(""+i+" est multiple de 3");
+}
+affich("---- multiple de 3 avec while ----");
+var i=6;
+while (i<31) {
+	affich(""+i+" est multiple de 3");
+	i+=3;
+}
+affich("---- tests conditionnels ----");
+i=10;
+while (i<31) {
+	if (i%5===0) {
+		affich (""+i+" est un multiple de 5");
+	}
+	else {
+		affich (""+i+" n'est pas un multiple de 5");
+	}
+	i++;
+}
 // Les objets (type js Object)
-
-/* 
-		for (var i=0;i<eleves.length;i++) {
-		}
-*/
+affich ("Les objets (Type Object) ");
+function affichMoi () {
+	affich (""+this.prenom+" "+this.nom+" est agé de "+this.age+" ans");
+}
+eleves=[];
+//
+var eleve={};
+eleve.nom="Delettre";
+eleve.prenom="Jean-Michel";
+eleve.age=45;
+eleve.email="info@pixaline.net";
+eleve.affich=affichMoi;
+eleves.push(eleve);
+//
+eleve={};
+eleve.nom="Dupont";
+eleve.prenom="Hector";
+eleve.age=38;
+eleve.email="hd@gmail.net";
+eleve.affich=affichMoi;
+eleves.push(eleve);
+//
+eleve={};
+eleve.nom="Técheur";
+eleve.prenom="Claudine";
+eleve.age=22;
+eleve.email="cc@gmail.com";
+eleve.affich=affichMoi;
+eleves.push(eleve);
+//
+for (var i=0;i<eleves.length;i++) {
+	eleves[i].affich();
+}
