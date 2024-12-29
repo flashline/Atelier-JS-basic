@@ -9,7 +9,7 @@ Connaître un minimum le HTML
 dont balises html, body, div, input, button  
 et les styles CSS :  
 dont attributs color, width, text-align, etc  
-voir  [www.apprendre-html-et-css.com](www.apprendre-html-et-css.com)
+voir  [www.apprendre-html-et-css.com](https://www.apprendre-html-et-css.com)
 	
 
 # Installation : 
