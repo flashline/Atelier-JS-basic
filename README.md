@@ -13,7 +13,8 @@ voir  [www.apprendre-html-et-css.com](https://www.apprendre-html-et-css.com)
 	
 
 # Installation : 
-Cliquer sur "Clone or download" puis "Download ZIP"
+Cliquer sur le bouton vert "<> Code" puis sur "Download ZIP".
+DéZipper où vous voulez.
 
 Si vous n'avez pas d'éditeur de texte installez :  
 [http://www.flashdevelop.org/](http://www.flashdevelop.org/) pour Windows 
